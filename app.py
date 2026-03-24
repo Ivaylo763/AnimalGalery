@@ -47,4 +47,4 @@ if st.session_state.animals:
             st.image(animal["картинка"], use_column_width=True)
             st.write(animal["описание"])
 else:
-    st.info("Галерията е празна. Добавете животни!"
+    st.info("Галерията е празна. Добавете животни!")
